@@ -1,0 +1,24 @@
+.body .cabecalho {
+    background-color: rgb(61, 61, 61);
+    color: beige;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.body .cabecalho a {
+    height: 36px;
+    width: 36px;
+    border: 3px solid;
+    border-color:red blue red blue;
+    padding: 6px;
+    border-radius: 50%;
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+
+.body .cabecalho a:hover {
+    transform: scale(1.2) ;
+}
+
