@@ -1,24 +1,115 @@
 .body .cabecalho {
-    background-color: rgb(61, 61, 61);
-    color: beige;
+    background-color: blue;
+    background-color: rgb(15, 15, 15);
+    color: wheat;
     display: flex;
-    justify-content: space-between;
+    
     align-items: center;
     padding: 25px;
+    border-bottom: 2px solid rgb(24, 24, 24);
 }
 
-.body .cabecalho a {
+.body .cabecalho .ico-cbc {
+    width: 3%;
+    height: 3%;
+    color: wheat;
+    padding: 0;
+    margin-right:25px ;
+}
+
+.body .cabecalho .hl {
+    height: 30px;
+    opacity: 90%;
+    padding: 0;
+    margin-right: 30px;
+    
+}
+
+.body .cabecalho .icone {
+    font-family: "Poppins",sans-serif;
     height: 36px;
     width: 36px;
-    border: 3px solid;
-    border-color:red blue red blue;
+    display: flex;
+    border: 2.5px solid;
+    border-color:wheat;
     padding: 6px;
     border-radius: 50%;
-    color: rgb(255, 0, 0);
-    text-align: center;
+    color: wheat;
+    cursor: pointer;
+    text-decoration: underline;
+    transition: 0.3s ease-in;
+    justify-content: center;
+    align-items: center;
+    
 }
 
-.body .cabecalho a:hover {
-    transform: scale(1.2) ;
+.body .cabecalho .icone:hover {
+    transform: scale(1.2);
+    background-color: wheat;
+    color: rgb(61, 61, 61); 
+    border-color: wheat;
+} 
+
+.body .cabecalho .titulo {
+    font-family: "UnifrakturMaguntia",sans-serif;
+    font-size: 360%;
+    color: wheat;
+    cursor: pointer;
+    margin-left: 380px;
+    margin-right:300px ;
 }
 
+.body .cabecalho .btn-guitarras {
+    font-family: "Poppins",sans-serif;
+    border: 2px solid wheat;
+    color: wheat;
+    text-decoration: none;
+    padding: 18px 30px 18px 30px;
+    border-radius: 40px;
+    transition: 0.3s ease-in;
+    margin-left: 70px;
+
+}
+
+.body .cabecalho .btn-guitarras:hover {
+    transform: scale(1.1);
+    background-color: wheat;
+    color: rgb(61, 61, 61); 
+    border-color: wheat;
+}
+
+.body .home {
+    background-color: #282828;
+    height: 1000px;
+    display: flex;
+}
+
+.body .home .informacoes {
+    display: flex;
+
+}
+    
+    .body .home .informacoes h1 {
+        color: rgb(255, 255, 255);
+        font-family: "Poppins",sans-serif;
+        position: absolute;
+        font-weight: 2000;
+        margin-top: 100px;
+        margin-left: 100px;
+        font-size: 52px;
+    }
+    .body .home .informacoes p {
+        position: absolute;
+        color: white;
+        font-family: "Poppins",sans-serif;
+        max-width: 480px;
+        margin-top: 260px;
+        margin-left:130px;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    .body .home .informacoes img {
+        width: 1348px;
+        height: calc(100%vh-54px);
+        position: relative;
+    }
