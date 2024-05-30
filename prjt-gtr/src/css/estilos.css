@@ -3,7 +3,6 @@
     background-color: rgb(15, 15, 15);
     color: wheat;
     display: flex;
-    
     align-items: center;
     padding: 25px;
     border-bottom: 2px solid rgb(24, 24, 24);
@@ -40,7 +39,6 @@
     transition: 0.3s ease-in;
     justify-content: center;
     align-items: center;
-    
 }
 
 .body .cabecalho .icone:hover {
@@ -55,27 +53,32 @@
     font-size: 360%;
     color: wheat;
     cursor: pointer;
-    margin-left: 380px;
+    margin-left: 370px;
     margin-right:300px ;
+}
+
+.body .cabecalho .btn-div {
+    height: 100%;
+    width:100% ;
 }
 
 .body .cabecalho .btn-guitarras {
     font-family: "Poppins",sans-serif;
-    border: 2px solid wheat;
+    border:2px solid transparent;
     color: wheat;
     text-decoration: none;
-    padding: 18px 30px 18px 30px;
-    border-radius: 40px;
+    margin: 0;
+    padding: 40px 20px 43px 20px;
+    border-radius: 0px;
     transition: 0.3s ease-in;
-    margin-left: 70px;
-
+    margin-left: 90px;
 }
 
 .body .cabecalho .btn-guitarras:hover {
     transform: scale(1.1);
-    background-color: wheat;
-    color: rgb(61, 61, 61); 
-    border-color: wheat;
+    background-color: rgb(82, 82, 82);
+    color: wheat; 
+    border-color: rgb(82, 82, 82); 
 }
 
 .body .home {
@@ -86,7 +89,6 @@
 
 .body .home .informacoes {
     display: flex;
-
 }
     
     .body .home .informacoes h1 {
