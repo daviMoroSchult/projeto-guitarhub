@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .body .cabecalho {
     background-color: blue;
     background-color: rgb(15, 15, 15);
@@ -6,6 +10,7 @@
     align-items: center;
     padding: 25px;
     border-bottom: 2px solid rgb(24, 24, 24);
+    
 }
 
 .body .cabecalho .ico-cbc {
@@ -13,7 +18,8 @@
     height: 3%;
     color: wheat;
     padding: 0;
-    margin-right:25px ;
+    cursor: pointer;
+    margin-right:25px
 }
 
 .body .cabecalho .hl {
@@ -90,9 +96,9 @@
     font-family: 'ChaletComprime',sans-serif;
     position: absolute;
     margin-top: 150px;
-    margin-left: 155px;
+    margin-left: 165px;
     font-size: 68px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 .body .home .informacoes p {
     position: absolute;
@@ -104,10 +110,139 @@
     font-weight: 400;
     font-size: 25px;
     text-wrap: pretty;
+    letter-spacing: 2px;
 }
 .body .home .informacoes img {
     width: 1348px;
     height: 800px;
-    position: relative;
-     
-    }
+    position: relative;   
+}
+
+.body .home .informacoes a {
+    color: white;
+    text-decoration: none;
+    font-family: 'ChaletComprime', sans-serif;
+    margin-top: 570px;
+    margin-left: 275px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 30px 45px 30px 45px;
+    position: absolute;
+    font-size: 30px;
+    transition: 0.2s ease-in;
+}
+
+.body .home .informacoes a:hover {
+    background-color: white;
+    color: black;
+}
+
+.body .home .guitarras {
+    background-color: #282828;
+    margin-top: 800px;
+    width: 1348px;
+    height: 1900px;
+    position: absolute;
+    border-top: 2px solid #282828;
+    justify-content: center;
+}
+
+.body .home .guitarras h1 {
+    color: wheat;
+    font-family: "UnifrakturMaguntia",sans-serif;
+    margin-top: 80px;
+    margin-left: 540px;
+    font-size: 70px;
+}
+
+.body .home .guitarras .gtr1 .gtr1-titulo {
+    color: white;
+    font-family: 'ChaletComprime',sans-serif;
+    margin-left: 440px;
+    margin-top: 150px;
+    font-size: 50px;
+}
+
+.body .home .guitarras .gtr1 .gtr1-preco {
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    margin-top: 30px;
+    margin-left: 610px;
+    font-size: 25px;
+}
+
+.body .home .guitarras .gtr1 .gtr1-img {
+    margin-left: 298px;
+    margin-top: 40px;
+    border: 2px solid black;
+    border-radius: 4px; 
+}
+
+.body .home .guitarras .gtr1 .btns-gtr1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 30px 50px 30px;
+    
+    
+}
+
+.body .home .guitarras .gtr1 .btns-gtr1 .btn-desc-gtr1 {
+    padding: 10px 20px 10px 20px;
+    color: white;
+    background-color: transparent;
+    border:2px solid transparent ;
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+}
+
+.body .home .guitarras .gtr1 .btns-gtr1 .btn-carac-gtr1 {
+    padding: 10px 20px 10px 20px;
+    color: white;
+    background-color: transparent;
+    border:2px solid transparent ;
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+}
+
+.body .home .guitarras .gtr1 .btns-gtr1 .btn-spec-gtr1 {
+    padding: 10px 20px 10px 20px;
+    color: white;
+    background-color: transparent;
+    border:2px solid transparent ;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+}
+
+.body .home .guitarras .gtr1 .btns-gtr1 .btn-desc-gtr1:hover {
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+
+.body .home .guitarras .gtr1 .btns-gtr1 .btn-carac-gtr1:hover {
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+
+.body .home .guitarras .gtr1 .btns-gtr1 .btn-spec-gtr1:hover {
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+
+.body .home .guitarras .gtr1 .desc h2 {
+    color: white;
+    font-family: 'ChaletComprime',sans-serif;
+    margin-left: 80px;
+    margin-top: 60px;
+    font-size: 40px;
+}
+
+.body .home .guitarras .gtr1 .desc p {
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    margin-left: 20px;
+    margin-top: 90px;
+    font-size: 20px;
+    text-indent: 20px;
+    text-wrap: wrap;
+    letter-spacing: 2px;
+}
