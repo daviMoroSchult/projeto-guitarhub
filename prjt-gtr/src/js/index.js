@@ -5,16 +5,22 @@ var btnCarac = document.querySelector(".btn-carac-gtr1");
 var carac = document.querySelector(".carac");
 var btnSpec = document.querySelector(".btn-spec-gtr1");
 var spec = document.querySelector(".spec");
+var btnInfo = document.querySelector(".btn-info");
 
 // Add an event listener to the description button
 btnDesc.addEventListener("click", () => {
     // Toggle the display style of the description element
+    if (desc.style.display == 'block') {
+        desc.style.display = 'none';
+        btnDesc.style.borderBottom = '2px solid transparent'; 
+    } else {
+        desc.style.display = 'block'
+        btnDesc.style.borderBottom = '2px solid white';
+    }
         spec.style.display = 'none';
         carac.style.display = 'none';
         btnCarac.style.borderBottom = '2px solid transparent';
         btnSpec.style.borderBottom = '2px solid transparent';
-        btnDesc.style.borderBottom = '2px solid white';
-        desc.style.display = 'block';
     
 });
 
@@ -24,14 +30,18 @@ btnDesc.addEventListener("click", () => {
 // Add an event listener to the description button
 btnCarac.addEventListener("click", () => {
     // Toggle the display style of the description element
-        spec.style.display = 'none';
-        desc.style.display = 'none';
-        btnSpec.style.borderBottom = '2px solid transparent';
-        btnDesc.style.borderBottom = '2px solid transparent';
+    if (carac.style.display == 'block') {
+        carac.style.display = 'none';
+        btnCarac.style.borderBottom = '2px solid transparent'; 
+    } else {
+        carac.style.display = 'block'
         btnCarac.style.borderBottom = '2px solid white';
-        carac.style.display = 'block';
-    
-        
+    }
+    btnSpec.style.borderBottom = '2px solid transparent';
+    btnDesc.style.borderBottom = '2px solid transparent';
+    desc.style.display = 'none';
+    spec.style.display = 'none';
+
 });
 
 
@@ -48,48 +58,6 @@ btnSpec.addEventListener("click", () => {
         
         
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 var btnCorpo = document.querySelector(".btn-corpo");
 var corpo = document.querySelector(".divd1");
@@ -144,4 +112,16 @@ btnEletronicos.addEventListener("click", () => {
         eletronicos.style.display = 'block'
     }
         
+});
+
+btnInfo.addEventListener("click", () => {
+    var info = document.querySelector(".gtr2-informacoes");
+    if (info.style.display == 'block') {
+        info.style.display = 'none';
+        btnInfo.style.borderBottom = '2px solid transparent'; 
+    } else {
+        info.style.display = 'block'
+        btnInfo.style.borderBottom = '2px solid white';
+    }
+    
 });

@@ -295,7 +295,7 @@ html {
     display: none;
     color: white;
     font-family: 'Poppins',sans-serif;
-    padding-left: 20px;
+    margin-left: 20px;
     padding-top: 50px;
     font-size: 20px;
     letter-spacing: 1px;
@@ -599,3 +599,126 @@ html {
     width: 70px;
 }
 
+.body .home .guitarras .gtr2 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.body .home .guitarras .gtr2 .gtr2-titulo {
+    margin-top: 140px;
+    margin-bottom: 50px;
+    font-family: 'ChaletComprime',sans-serif;
+    font-size: 50px;
+}
+
+.body .home .guitarras .gtr2 .gtr2-preco {
+    font-family: 'Poppins',sans-serif;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.body .home .guitarras .gtr2 img {
+    align-self: center;
+    width: 45%;
+    border-radius: 7px;
+}
+
+.body .home .guitarras .gtr2 button {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 15%;
+    align-self: center;
+    border: 3px solid transparent;
+    background-color: transparent;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.body .home .guitarras .gtr2 button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    border-bottom: 3px solid white;
+}
+
+.body .home .guitarras .gtr2 button:active {
+    border-bottom: 3px solid white;
+    opacity: 0.6;
+}
+
+.body .home .guitarras .gtr2 .gtr2-info.ativo{
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.body .home .guitarras .gtr2 .gtr2-informacoes  {
+    display: none;
+}
+
+.body .home .guitarras .gtr2 .gtr2-informacoes  .gtr2-info  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.body .home .guitarras .gtr2 .gtr2-informacoes .gtr2-info  .ul19 {
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.body .home .guitarras .gtr2 .gtr2-informacoes .gtr2-info  .ul19 .h21 {
+    font-weight: bold;
+    margin: 30px 0 15px 30px;
+}
+
+.body .home .guitarras .gtr2 .gtr2-informacoes .gtr2-info  .ul19 .p4 {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.body .home .guitarras .gtr2 .gtr2-informacoes .gtr2-info  .ul21 {
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.body .home .guitarras .gtr2 .gtr2-informacoes .gtr2-info  .ul21 h2 {
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.body .home .guitarras .gtr2 .gtr2-informacoes .gtr2-info .ul21 a {
+    color: rgb(0, 26, 255)
+}
+
+.body .home .guitarras .gtr2 .gtr2-informacoes .gtr2-info .ul20 {
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    justify-content:end ;
+    flex-direction: column;
+    margin-right: 55px;
+    margin-top: 30px;
+}
+
+.body .home .guitarras .gtr2 .gtr2-informacoes .gtr2-info .ul20 .h22 {
+    font-weight: bold;
+    margin: 30px 0 15px 30px;
+}
+
+.body .home .guitarras .gtr2 .gtr2-informacoes .gtr2-info .ul20 .p5 {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.body .home .guitarras .gtr2 .gtr2-informacoes .gtr2-info .ul20 .p6 {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
